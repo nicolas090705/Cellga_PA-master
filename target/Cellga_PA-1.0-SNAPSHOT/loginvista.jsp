@@ -16,6 +16,7 @@
     PASO 3: Se reciben los parametros que se ingresaron por el formulario form_sesion
 --%>
 <%
+    System.out.println("PRUEBA PARA ACTUALIZAR GIT");
     String correo_in = request.getParameter("campo_correo");
     String pass_in = request.getParameter("campo_pass");
     
